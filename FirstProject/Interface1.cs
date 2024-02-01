@@ -16,7 +16,7 @@ namespace FirstProject
     //we can not declare any variables under an interface.
     //If required an interface can inherit from another interface.
     //While implementing interface we don't required to use override modifier just like we use in abstract class.
-    //--Generally a class inherits from another class ot use the members of its parent, where as if a class is inheriting from an interface it is to implement the members of its parent.
+    //--Generally a class inherits from another class to use the members of its parent, where as if a class is inheriting from an interface it is to implement the members of its parent.
     //--Note : A class can inherit from a class and interface at a time.
     interface Iinterface1
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FirstProject
 {
-    //If a class contains any static variable then only implicit static constructor will be presebt or else we need to define them explicilty
+    //If a class contains any static variable then only implicit static constructor will be present or else we need to define them explicilty
     //whereas non-static constructor will be implicitily defined in every class(except static class) provided we did not define them explicitly.
 
     //Static constructor are responsible in initializing static variables and these constructors are never called explicilty they are imopliclyt called

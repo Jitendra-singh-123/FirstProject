@@ -44,20 +44,47 @@ namespace FirstProject
             //Here organization acts as a List i.e store the instances of Employees Class
             //List implements interface IEnumerable and have function GetEnumerator() used for to readonly i.e foreach
             //But Let us not override GetEnumerator() in Organization(which is implementing IEnumerable interface) then if we try to use foreach we will get error
-            Organization org = new Organization();
-            Employees e1 = new Employees { CustId = 121, Name = "Joe", Salary = 12000.234, Department = "Database Administrator" };
-            Employees e2 = new Employees { CustId = 122, Name = "Rock", Salary = 220000, Department = "Software Engineer" };
-            Employees e3 = new Employees { CustId = 123, Name = "John", Salary = 500000, Department = "Data Scientist" };
-            Employees e4 = new Employees { CustId = 120, Name = "Chritain", Salary = 98800, Department = "Editor" };
-            org.Add(e1);
-            org.Add(e2);
-            org.Add(e3);
-            org.Add(e4);
-            foreach (Employees obj in org)
+            
+            //Organization org = new Organization();
+            //Employees e1 = new Employees { CustId = 121, Name = "Joe", Salary = 12000.234, Department = "Database Administrator" };
+            //Employees e2 = new Employees { CustId = 122, Name = "Rock", Salary = 220000, Department = "Software Engineer" };
+            //Employees e3 = new Employees { CustId = 123, Name = "John", Salary = 500000, Department = "Data Scientist" };
+            //Employees e4 = new Employees { CustId = 120, Name = "Chritain", Salary = 98800, Department = "Editor" };
+            //org.Add(e1);
+            //org.Add(e2);
+            //org.Add(e3);
+            //org.Add(e4);
+            //foreach (Employees obj in org)
+            //{
+            //    Console.WriteLine(obj.CustId + " " + obj.Name + " " + obj.Salary + " " + obj.Department);
+            //}
+
+
+
+
+            //Hexaware batch
+            List<string> nameList = new List<string>() {"Ravi","Rohit","Virat","Kohli","Ronaldo","Mahender singh dhoni" };
+
+            Console.WriteLine("For each Loop Name List");
+            foreach (string name in nameList)
             {
-                Console.WriteLine(obj.CustId + " " + obj.Name + " " + obj.Salary + " " + obj.Department);
+                Console.WriteLine(name);
             }
-          
+            Console.WriteLine("Iterator using IEnumerator");
+            IEnumerator<string> enumerator = nameList.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                string name = enumerator.Current;
+                Console.WriteLine(name);
+            }
+
+            Console.WriteLine("Using IEnumerable and Linq");
+            IEnumerable<string> query = nameList.Where(name => name.Length >= 6);
+
+            foreach (string name in query)
+            {
+                Console.WriteLine(name);
+            }
             Console.ReadLine();
         }
        

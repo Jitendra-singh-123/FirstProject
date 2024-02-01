@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FirstProject.ValueTypeTuple</StartupObject>
+    <StartupObject>FirstProject.RegularExpressions</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -69,6 +69,8 @@
     <Compile Include="FunActionPredicateDelegates.cs" />
     <Compile Include="GenericCollection.cs" />
     <Compile Include="GenericDictionary.cs" />
+    <Compile Include="generics.cs" />
+    <Compile Include="Generics1.cs" />
     <Compile Include="IComparableInterface.cs" />
     <Compile Include="IEnumerbaleInerface.cs" />
     <Compile Include="inheritance1.cs" />
@@ -77,6 +79,9 @@
     <Compile Include="JaggedArray.cs" />
     <Compile Include="KindOfVariables.cs" />
     <Compile Include="LambdaExpression1.cs" />
+    <Compile Include="Linq.cs" />
+    <Compile Include="Linq2.cs" />
+    <Compile Include="Linq3.cs" />
     <Compile Include="MethodOverloading1.cs" />
     <Compile Include="MethodOverriding1.cs" />
     <Compile Include="MultiCastDelegate.cs" />
@@ -84,9 +89,12 @@
     <Compile Include="OptionalAndDefaultParameter.cs" />
     <Compile Include="OutKeyword.cs" />
     <Compile Include="ParamArray.cs" />
+    <Compile Include="Players.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegularExpressions.cs" />
+    <Compile Include="serializationDemo.cs" />
     <Compile Include="StaticClass.cs" />
     <Compile Include="StaticConstructor.cs" />
     <Compile Include="StaticFunction.cs" />

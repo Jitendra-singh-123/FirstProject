@@ -10,7 +10,7 @@ namespace FirstProject
     // public: no restriction at all, can be accessed from anywhere
     //private : can be accessed within same class
     //protected : can be accessed wihtin the class and through the child class
-    //internal :  can be accessed within the project thrugh child or non-child class
+    //internal :  can be accessed within the project through child or non-child class
     //protected internal : can be accessed either within the project or within the child class of other projects
     //protected internal follows OR boolean table like:
     //internal     protected      protected internal

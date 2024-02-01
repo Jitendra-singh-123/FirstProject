@@ -9,6 +9,7 @@ namespace FirstProject
     //why the concept of properties came into C#? The is because of two reasons:
     //If the members of a class are private then how another class in C# will be able to read, write, or compute the value of that field.
     //If the members of the class are public then another class may misuse that member.
+
     //Properties are the special type of class members that provides a flexible mechanism to read, write, or compute the value of a private field.
 
     //Accessors: The block of “set” and “get” is known as “Accessors”. It is very essential to restrict the accessibility of property.
@@ -25,7 +26,7 @@ namespace FirstProject
        //     get { return _rateOfInterest; }
        //     set { _rateOfInterest = value; }
        // }
-
+      // public decimal rateOfInterest { get; set; }
         public decimal rateOfInterest
         {
             get { return _rateOfInterest; }

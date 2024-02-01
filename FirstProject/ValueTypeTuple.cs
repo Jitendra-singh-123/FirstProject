@@ -20,10 +20,10 @@ namespace FirstProject
             //Console.WriteLine(num1 +" "+ num1.GetType());
             //Console.WriteLine(num2 +" " + num2.GetType());
 
-            var num3 = (1, 2, 3, 4, 5, 6, 6, 7, 7, 8, 9, 10, 11);
+            //var num3 = (1, 2, 3, 4, 5, 6, 6, 7, 7, 8, 9, 10, 11);
 
-            (int,EmpId,string empName,string gender) emp = 
-            Console.ReadLine();
+            //(int,EmpId,string empName,string gender) emp = 
+            //Console.ReadLine();
         }
     }
 }

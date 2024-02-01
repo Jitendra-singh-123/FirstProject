@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AssignmentsCsharp.AssignmentTrainer5</StartupObject>
+    <StartupObject>AssignmentsCsharp.AssingmentSalaryCalculation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +54,7 @@
     <Compile Include="AssignmentTraineer3.cs" />
     <Compile Include="AssignmentTrainer4.cs" />
     <Compile Include="AssignmentTrainer5.cs" />
+    <Compile Include="AssingmentSalaryCalculation.cs" />
     <Compile Include="inheritance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

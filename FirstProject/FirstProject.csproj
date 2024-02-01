@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FirstProject.RegularExpressions</StartupObject>
+    <StartupObject>FirstProject.SingletonDesingPattern</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -95,6 +95,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegularExpressions.cs" />
     <Compile Include="serializationDemo.cs" />
+    <Compile Include="SingletonDesingPattern.cs" />
     <Compile Include="StaticClass.cs" />
     <Compile Include="StaticConstructor.cs" />
     <Compile Include="StaticFunction.cs" />
